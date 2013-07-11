@@ -1,2 +1,4 @@
 modifie le 11/07/2013 à 10h27
 j'ai réussit à utiliser git
+
+De Greg : "J'ai enfin pu modifier ton fichier :-)"
