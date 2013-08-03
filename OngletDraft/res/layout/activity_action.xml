@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+   
+    <LinearLayout
+        android:layout_width="1150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="60dp"
+        android:background="@color/black"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/decompte"
+            android:layout_width="150dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="500dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/chrono"
+            android:gravity="center"
+            android:text="00:00:00"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="1150dp"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="60dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="570dp"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="500dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/green"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/Equipe_Domicile"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:text="DOMICILE"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextViewOnglet1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time out"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <Button
+                    android:id="@+id/timeout_1_min"
+                    android:layout_width="94dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/btn_min" />
+
+                <Button
+                    android:id="@+id/timeout_1_add"
+                    android:layout_width="94dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/btn_add" />
+
+                <TextView
+                    android:id="@+id/timeout_1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="00"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="500dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/green"
+                android:orientation="horizontal" >
+                
+                <TextView
+                    android:id="@+id/Equipe_Visiteur"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:text="VISITEUR"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextViewOnglet1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time out"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <Button
+                    android:id="@+id/timeout_2_min"
+                    android:layout_width="94dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/btn_min" />
+
+                <Button
+                    android:id="@+id/timeout_2_add"
+                    android:layout_width="94dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/btn_add" />
+
+                <TextView
+                    android:id="@+id/timeout_2"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="00"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="570dp"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextViewOnglet1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text="2pts"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextViewOnglet2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="3pts"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextViewOnglet3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Free thow 1pt"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextViewOnglet4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Rebound Def"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextViewOnglet5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Rebound Off"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextViewOnglet6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Steal"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextViewOnglet7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Block"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextViewOnglet8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Turnover"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextViewOnglet9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Fouls"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextViewOnglet10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Technicals"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TextViewOnglet11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Assists"
+                    android:textSize="20dp" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="50dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/deux_points"
+                        android:layout_width="109dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_succes" />
+
+                    <Button
+                        android:id="@+id/moins_deux_points"
+                        android:layout_width="87dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_failed" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/trois_points"
+                        android:layout_width="109dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_succes" />
+
+                    <Button
+                        android:id="@+id/moins_trois_points"
+                        android:layout_width="87dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_failed" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/un_point"
+                        android:layout_width="109dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_succes" />
+
+                    <Button
+                        android:id="@+id/moins_un_point"
+                        android:layout_width="87dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_failed" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/rebound_def_min"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_min" />
+
+                    <Button
+                        android:id="@+id/rebound_def_add"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_add" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/rebound_off_min"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_min" />
+
+                    <Button
+                        android:id="@+id/rebound_off_add"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_add" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/steal_min"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_min" />
+
+                    <Button
+                        android:id="@+id/steal_add"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_add" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/block_min"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_min" />
+
+                    <Button
+                        android:id="@+id/block_add"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_add" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/turnover_min"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_min" />
+
+                    <Button
+                        android:id="@+id/turover_add"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_add" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/fools_min"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_min" />
+
+                    <Button
+                        android:id="@+id/fools_add"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_add" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/technicals_min"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_min" />
+
+                    <Button
+                        android:id="@+id/technicals_add"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_add" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/technicals_min"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_min" />
+
+                    <Button
+                        android:id="@+id/technicals_add"
+                        android:layout_width="94dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_add" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/score"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text="00"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/score2"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="00"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/score3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="00"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/rebound_def"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="00"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/rebound_off"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="00"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/steal"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="00"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/block"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="00"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/turnover"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="00"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/fouls"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="00"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/technicals"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="00"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/assists"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="00"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

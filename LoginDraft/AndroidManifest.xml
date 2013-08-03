@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.draft.login"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.draft.login.HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.draft.login.SignUPActivity" />
+        <activity
+            android:name="com.draft.login.LoginDisplay"
+            android:label="@string/title_activity_login_display" >
+        </activity>
+        <activity
+            android:name="com.draft.activity.Accueil"
+            android:label="@string/title_activity_accueil" >
+        </activity>
+        <activity
+            android:name="com.draft.activity.LiveScore"
+            android:label="@string/title_activity_live_score" >
+        </activity>
+        <activity
+            android:name="com.draft.activity.StatsGame"
+            android:label="@string/title_activity_stats_game" >
+        </activity>
+        <activity
+            android:name="com.draft.activity.PlayByPlay"
+            android:label="@string/title_activity_play_by_play" >
+        </activity>
+        <activity
+            android:name="com.draft.activity.Action"
+            android:label="@string/title_activity_action" >
+        </activity>
+        <activity
+            android:name="com.draft.activity.StatsTeam"
+            android:label="@string/title_activity_stats_team" >
+        </activity>
+        <activity
+            android:name="com.draft.activity.Formulaire"
+            android:label="@string/title_activity_formulaire" >
+        </activity>
+    </application>
+
+</manifest>

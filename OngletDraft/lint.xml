@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_onglet.xml" />
+    </issue>
+    <issue id="DuplicateIds">
+        <ignore path="res/layout/activity_action.xml" />
+        <ignore path="res/layout/activity_onglet.xml" />
+    </issue>
+    <issue id="ExtraText">
+        <ignore path="res/layout/activity_onglet.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_action.xml" />
+        <ignore path="res/layout/activity_formulaire.xml" />
+        <ignore path="res/layout/activity_onglet.xml" />
+    </issue>
+    <issue id="SpUsage">
+        <ignore path="res/layout/activity_action.xml" />
+        <ignore path="res/layout/activity_formulaire.xml" />
+    </issue>
+</lint>

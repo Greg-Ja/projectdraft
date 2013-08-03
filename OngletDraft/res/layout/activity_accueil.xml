@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- Le TabHost qui contient tous les éléments de nos onglets -->
+
+    <TabHost
+        android:id="@+id/TabHost01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            
+
+            <!-- TabWidget qui sert à afficher les onglets -->
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" >
+            </TabWidget>
+
+            <!-- contenu de nos onglets. -->
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+￼
+                <!-- Contenu de l’onglet N°1 -->
+
+                <LinearLayout
+                    android:id="@+id/Onglet1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/background"
+                    android:orientation="vertical"
+                    android:scrollbars="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextViewOnglet3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ceci est un texte dans l’onglet N°1" >
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/logo_nb" >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/decompte"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="550dp"
+                        android:layout_marginTop="-50dp"
+                        android:text="00:00:00"
+                        android:textColor="#888888"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1120dp"
+                        android:layout_marginTop="-50dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/pause_play"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button1"
+                            android:text="@string/pause_play" />
+
+                        <Button
+                            android:id="@+id/reset"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button2"
+                            android:text="@string/reset" />
+
+                        <Button
+                            android:id="@+id/action"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button3"
+                            android:text="@string/action" />
+
+                        <Button
+                            android:id="@+id/next_quarter"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button4"
+                            android:text="@string/next_quarter" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Contenu de l’onglet N°2 -->
+
+                <LinearLayout
+                    android:id="@+id/Onglet2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/background"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextViewOnglet2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ceci est un texte dans l’onglet N°2" >
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/logo" >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/decompte"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="550dp"
+                        android:layout_marginTop="-50dp"
+                        android:text="00:00:00"
+                        android:textColor="#888888"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1120dp"
+                        android:layout_marginTop="-50dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/pause_play"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button1"
+                            android:text="@string/pause_play" />
+
+                        <Button
+                            android:id="@+id/reset"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button2"
+                            android:text="@string/reset" />
+
+                        <Button
+                            android:id="@+id/action"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button3"
+                            android:text="@string/action" />
+
+                        <Button
+                            android:id="@+id/next_quarter"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button4"
+                            android:text="@string/next_quarter" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Contenu de l’onglet N°3 -->
+
+                <LinearLayout
+                    android:id="@+id/Onglet3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/background"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextViewOnglet3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ceci est un texte dans l’onglet N°3" >
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/logo" >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/decompte"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="550dp"
+                        android:layout_marginTop="-50dp"
+                        android:text="00:00:00"
+                        android:textColor="#888888"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1120dp"
+                        android:layout_marginTop="-50dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/pause_play"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button1"
+                            android:text="@string/pause_play" />
+
+                        <Button
+                            android:id="@+id/reset"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button2"
+                            android:text="@string/reset" />
+
+                        <Button
+                            android:id="@+id/action"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button3"
+                            android:text="@string/action" />
+
+                        <Button
+                            android:id="@+id/next_quarter"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button4"
+                            android:text="@string/next_quarter" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Contenu de l’onglet N°4 -->
+
+                <LinearLayout
+                    android:id="@+id/Onglet4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/background"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextViewOnglet4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ceci est un texte dans l’onglet N°4" >
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/logo" >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/decompte"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="550dp"
+                        android:layout_marginTop="-50dp"
+                        android:text="00:00:00"
+                        android:textColor="#888888"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1120dp"
+                        android:layout_marginTop="-50dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/pause_play"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button1"
+                            android:text="@string/pause_play" />
+
+                        <Button
+                            android:id="@+id/reset"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button2"
+                            android:text="@string/reset" />
+
+                        <Button
+                            android:id="@+id/action"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button3"
+                            android:text="@string/action" />
+
+                        <Button
+                            android:id="@+id/next_quarter"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button4"
+                            android:text="@string/next_quarter" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

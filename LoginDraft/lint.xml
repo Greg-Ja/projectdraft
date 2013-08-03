@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/login.xml" />
+        <ignore path="res/layout/signup.xml" />
+    </issue>
+    <issue id="DuplicateIds">
+        <ignore path="res/layout/activity_action.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/accueil.xml" />
+        <ignore path="res/layout/activity_action.xml" />
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/login.xml" />
+        <ignore path="res/layout/login_display.xml" />
+        <ignore path="res/layout/signup.xml" />
+        <ignore path="res/layout/test.xml" />
+    </issue>
+    <issue id="SpUsage">
+        <ignore path="res/layout/activity_action.xml" />
+        <ignore path="res/layout/test.xml" />
+    </issue>
+    <issue id="UselessLeaf">
+        <ignore path="res/layout/login_display.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/activity_action.xml" />
+        <ignore path="res/layout/test.xml" />
+    </issue>
+</lint>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Info générale de l'application -->
+    <string name="app_name">Draft</string>
+    <string name="title_activity_main">Draft</string>
+
+    <!-- Barre d'action -->
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_search">Recherche</string>
+    <string name="menu_refresh">Rafraichir</string>
+    <string name="menu_help">Aide</string>
+    <string name="menu_about">A propos</string>
+
+    <!-- Barre générale des menus -->
+    <string name="live_score">live score</string>
+    <string name="play_by_play">play by play</string>
+    <string name="stats_game">stats game</string>
+    <string name="stats_team">stats team</string>
+
+    <!-- Page Login -->
+    <string name="image_content_description">Un Basketeur</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="email">Adresse email</string>
+    <string name="password">Mot de passe</string>
+    <string name="connect">Se connecter</string>
+
+    <!-- Page Login display -->
+    <string name="title_activity_login_display">Login</string>
+    <string name="user_name">"Ici : Le nom de l'utilisateur"</string>
+    <string name="user_email">"Ici : L'adresse e-mail de l'utilisateur"</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Page d'Accueil -->
+    <string name="title_activity_draft_accueil">Accueil</string>
+    <string name="accueil">Accueil</string>
+
+    <!-- Page LiveScore -->
+    <string name="title_activity_live_score">LiveScore</string>
+
+    <!-- Page Play By Play -->
+    <string name="title_activity_play_by_play">PlayByPlay</string>
+
+    <!-- Page des Stats Game -->
+    <string name="title_activity_stats_game">Stats</string>
+
+    <!-- Page des Stats Team -->
+    <string name="title_activity_stats_team">Stats</string>
+
+    <!-- Chrono -->
+    <string name="pause_play">Play</string>
+    <string name="redemarrer">Restart</string>
+    <string name="stoper">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="action">Action</string>
+    <string name="next_quarter">Next quarter</string>
+
+    <!-- Page Action -->
+    <string name="title_activity_action">Action</string>
+    <string name="title_activity_accueil">Accueil</string>
+    <string name="title_activity_onglet">Onglet</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_formulaire">Formulaire</string>
+    
+    <!-- Formulaire equipe -->
+    
+    	<!-- Liste déroulante -->
+    	<string name="post_prompt">Choisir un poste</string>
+ 		<string-array name="post_arrays">
+        <item>Ailier fort</item>
+        <item>Arrière</item>
+        <item>Meneur</item>
+        <item>Petit ailier</item>
+        <item>Pivot</item>
+    	</string-array>
+    
+</resources>
